@@ -1,7 +1,7 @@
 %{ 
     __ Load data __
 
-    Load '/songs' directory to analyze files and get relevant information out of
+    Load '/Songs' directory to analyze files and get relevant information out of
     them.
 
     (Needs to be run only if new songs added or songs have not been processed)
@@ -48,7 +48,7 @@ clc, clear, close all
 
 %}
     clc, clear, close all
-    cancion = 'Rocket Man.mat';       % Elegir la canción a desplegar
+    cancion = 'Rocket Man.mat';       % Elegir la canciÃ³n a desplegar
     
     song = load(strcat('SongsData/',cancion));
     S = song.song;
@@ -62,15 +62,14 @@ clc, clear, close all
 
     s = mesh(XX,YY,X','FaceAlpha','1');
     s.FaceColor = 'flat';
-    title(S.Name);
+    title(['Song: ', S.Name], 'Time vs Frequency visualization');
 
-    xlabel('Time');
     ylabel('Frequency');
     zlabel('Magnitude');
 
     % Scale YY axis values to get second values in axis
     xticklabels(get(gca, 'XTick') * interval);
-    ylabel('Time (s)');
+    xlabel('Time (s)');
 
     %%
     clc, clear, close all
@@ -163,7 +162,7 @@ clc
 
 
 %{
-   An analysis similar to the one done in the learning phase, is carried
+    An analysis similar to the one done in the learning phase, is carried
     out on the input sample.
     
     1. Compute FFT for each segment t.
