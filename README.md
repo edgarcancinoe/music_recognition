@@ -3,7 +3,7 @@
 
 Utilization of the  Fast Fourier Transform (FFT) in matlab to perform a time and frequency analysis of audio recordings in order to match a song recorded with the computer's microphone to a database of known songs.
 
-The main code is in file ''' main.m '''. The rest are useful functions.
+The main code is in file ´´´ main.m ´´´. The rest are useful functions.
 
 [Watch on youtube](https://youtu.be/cQO6ExhgZn0)
 
