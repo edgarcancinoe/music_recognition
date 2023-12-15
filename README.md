@@ -5,8 +5,8 @@ Utilization of the  Fast Fourier Transform (FFT) in matlab to perform a time and
 
 [Watch on youtube](https://youtu.be/cQO6ExhgZn0)
 
-<img src="https://github.com/edgarcancinoe/music_recognition/raw/main/Plots/rocketman.png" width="800">
-<img src="https://github.com/edgarcancinoe/music_recognition/raw/main/Plots/underwater.png" width="800">
-<img src="https://github.com/edgarcancinoe/music_recognition/raw/main/Plots/fatherocean.png" width="800">
+<img src="https://github.com/edgarcancinoe/music_recognition/raw/main/Plots/rocketman.png" width="700">
+<img src="https://github.com/edgarcancinoe/music_recognition/raw/main/Plots/underwater.png" width="700">
+<img src="https://github.com/edgarcancinoe/music_recognition/raw/main/Plots/fatherocean.png" width="700">
 
 
